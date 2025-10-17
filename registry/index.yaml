@@ -1,0 +1,4 @@
+artifacts:
+  - type: olir
+    path: olir/csf-2.0_pci-4.0.1_supportive/csf-v2_pci-dss_v4.0.1_olir-supportive.xlsx
+    meta: olir/csf-2.0_pci-4.0.1_supportive/meta.yaml
