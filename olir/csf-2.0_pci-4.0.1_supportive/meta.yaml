@@ -1,7 +1,8 @@
 artifact: olir
 template: supportive                  # supportive | concept crosswalk | set theory 
-focal_template_title: "Cybersecurity Framework v2.0_Supportive_Template.xlsx"
-focal_template_downloaded: "2025-10-17"
+template_title: "Cybersecurity Framework v2.0_Supportive_Template.xlsx"
+template_downloaded: "2025-10-17"
+template_source: https://csrc.nist.gov/Projects/olir/focal-document-templates#/
 
 status: draft                         # draft | candidate | listed
 
