@@ -1,0 +1,41 @@
+artifact: olir
+template: supportive                  # supportive | concept crosswalk | set theory 
+focal_template_title: "Cybersecurity Framework v2.0_Supportive_Template.xlsx"
+focal_template_downloaded: "2025-10-17"
+
+status: draft                         # draft | candidate | listed
+
+focal:
+  name: "NIST Cybersecurity Framework"
+  slug: csf-2.0
+  version: "2.0"
+  references:
+    - type: homepage
+      href: "https://www.nist.gov/cyberframework"
+
+reference:
+  name: "PCI DSS"
+  slug: pci-4.0.1
+  version: "4.0.1"
+  references:
+    - type: document_library
+      href: "https://www.pcisecuritystandards.org/document_library/"
+
+public_url: null
+
+validated:
+  ran: false
+  tool_version: ""
+  last_run: ""
+
+ip_notes: |
+  Contains no PCI verbatim text. Reference identifiers only; link to PCI Document Library.
+
+contact:
+  name: "Aleksei Panov"
+  email: "willprovidelater@example.com"
+
+# integrity for the spreadsheet to be publish later
+artifact_hash:
+  algo: sha256
+  value: ""                            # fill once I create a public release
