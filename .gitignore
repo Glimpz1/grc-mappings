@@ -1,0 +1,7 @@
+# local/private enrichments & tools (do not commit)
+oscal/catalogs/pci-4.0.1-full.json
+oscal/profiles/*-full.json
+**/enriched/**
+*.jar
+.DS_Store
+Thumbs.db
