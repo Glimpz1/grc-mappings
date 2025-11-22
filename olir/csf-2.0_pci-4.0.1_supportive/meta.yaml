@@ -4,7 +4,8 @@ template_title: "Cybersecurity Framework v2.0_Supportive_Template.xlsx"
 template_downloaded: "2025-10-17"
 template_source: https://csrc.nist.gov/Projects/olir/focal-document-templates#/
 
-status: draft                         # draft | candidate | listed
+status: draft                         # draft | candidate | listed (change to 'candidate' after NIST posts for public review)
+version: 1.0.0
 
 focal:
   name: "NIST Cybersecurity Framework"
@@ -22,21 +23,23 @@ reference:
     - type: document_library
       href: "https://www.pcisecuritystandards.org/document_library/"
 
-public_url: null
+public_url: null                    # set to NIST posting URL when available
 
 validated:
   ran: false
-  tool_version: ""
-  last_run: ""
+  tool_version: "3.22"
+  last_run: "2025-10-17"
+  validator_source: https://csrc.nist.rip/Projects/olir/validation-tool
+  notes: "current OLIR Validation Tool does not match used OLIR template version."
 
-ip_notes: |
-  Contains no PCI verbatim text. Reference identifiers only; link to PCI Document Library.
+ip_notes: >
+  Contains no PCI DSS verbatim text. Only reference identifiers; see the PCI SSC Document Library for source material.
 
 contact:
   name: "Aleksei Panov"
   email: "willprovidelater@example.com"
 
-# integrity for the spreadsheet to be publish later
+# integrity for the spreadsheet
 artifact_hash:
   algo: sha256
-  value: ""                            # fill once I create a public release
+  value: "FFB436F3D36C6F311C39DBBE65793CACCA99D499CEB8FF66020D08B7F14E38CF"
