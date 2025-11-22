@@ -1,30 +1,24 @@
-# GRC Mappings — OLIR & OSCAL (CSF pivot)
-
-**Status:** Private working draft  
+# GRC Mappings — OLIR & OSCAL
+**Status:** Public  
 **Owner:** Aleksei Panov
 
-This repository hosts:
-- **OLIR mappings** (Supportive / Crosswalk / Set Theory) with **CSF 2.0 as focal**.
-- **Public-safe OSCAL** content (CSF catalog; thin PCI catalog) — to be added.
+Mappings and reference materials for Governance, Risk, and Compliance (GRC) work. This repository hosts:
+- **Online Informative References (OLIR) mappings**
+  - [NIST: National Online Informative References Program OLIR](https://csrc.nist.gov/projects/olir)
+- **Open Security Controls Assessment Language (OSCAL)** content (planned)
+  - [NIST: Open Security Controls Assessment Language OSCAL](https://csrc.nist.gov/Projects/open-security-controls-assessment-language)
 
 ## Current artifacts
-- `olir/csf-2.0_pci-4.0.1_supportive/csf-v2_pci-dss_v4.0.1_olir-supportive.xlsx` (no PCI verbatim text)
+- [CSF v2.0 ↔ PCI DSS v4.0.1](https://github.com/Glimpz1/grc-mappings/tree/main/olir/csf-2.0_pci-4.0.1_supportive) - Supportive OLIR mapping *(no PCI DSS verbatim text)*
 
-## Template & Validator note
-
-This OLIR is using the NIST **Focal Document Template** from  
-https://csrc.nist.gov/Projects/olir/focal-document-templates#/
-
-The validation run against  
-https://csrc.nist.rip/Projects/olir/validation-tool  
-did **not** pass because that tool targets a different template build and such template is not officially published on 
-https://csrc.nist.rip/projects/olir/focal-document-templates
-
-**Decision:** We will continue using the current current OLIR Focal Document Template from csrc.nist.gov because there is no better, validated alternative available at this time.
+## Contributions
+- Open *Issues* for specific comments (accuracy, scope, terminology).
+- Use *Pull Requests* for concrete fixes (typos, clarifications, metadata).
+- Keep discussions focused on the mapping itself; policy debates or out‑of‑scope feature requests may be ignored.
 
 ## Next steps
-1. Run the NIST OLIR validator locally and fix any errors - once updated version and template is available.
-2. When ready for NIST screening, make this repo **public**, create a tagged release, and use the release URL in the OLIR submission.
+1. After NIST posts the mapping, it will undergo a 30-day public review. The public review link will be added in the meta.yaml.
+2. Add an OSCAL representation of selected framework(s).
 
-## Notes on rights
-Third-party standards are referenced by identifier and link. **No verbatim PCI text** is redistributed here.
+## License
+Unless noted otherwise in subfolders, content in this repo is released under **CC0-1.0** (see [LICENSE](https://github.com/Glimpz1/grc-mappings/blob/main/LICENSE)). This does not grant rights to any referenced third-party standard text.
