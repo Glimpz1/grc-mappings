@@ -4,7 +4,7 @@ template_title: "Cybersecurity Framework v2.0_Supportive_Template.xlsx"
 template_downloaded: "2025-10-17"
 template_source: https://csrc.nist.gov/Projects/olir/focal-document-templates#/
 
-status: draft                         # draft | candidate | listed (change to 'candidate' after NIST posts for public review)
+status: candidate                         # draft | candidate | listed (change to 'listed' after NIST public review is closed)
 version: 1.0.0
 
 focal:
@@ -23,7 +23,7 @@ reference:
     - type: document_library
       href: "https://www.pcisecuritystandards.org/document_library/"
 
-public_url: null                    # set to NIST posting URL when available
+public_url: https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=183#/
 
 validated:
   ran: false
@@ -38,7 +38,6 @@ ip_notes: >
 contact:
   name: "Aleksei Panov"
   email: "willprovidelater@example.com"
-
 # integrity for the spreadsheet
 artifact_hash:
   algo: sha256
