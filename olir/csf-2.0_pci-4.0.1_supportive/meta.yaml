@@ -4,7 +4,7 @@ template_title: "Cybersecurity Framework v2.0_Supportive_Template.xlsx"
 template_downloaded: "2025-10-17"
 template_source: https://csrc.nist.gov/Projects/olir/focal-document-templates#/
 
-status: candidate                         # draft | candidate | listed (change to 'listed' after NIST public review is closed)
+status: listed                         # draft | candidate | listed (NIST public review is closed)
 version: 1.0.0
 
 focal:
