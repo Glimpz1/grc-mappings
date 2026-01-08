@@ -17,8 +17,7 @@ Mappings and reference materials for Governance, Risk, and Compliance (GRC) work
 - Keep discussions focused on the mapping itself; policy debates or out‑of‑scope feature requests may be ignored.
 
 ## Next steps
-1. Make corrections based on community feedback: `CSF v2.0 ↔ PCI DSS v4.0.1` mapping is now in 30-day public review period. 
-2. Add an OSCAL representation of selected framework(s).
+1. Add an OSCAL representation of selected framework(s).
 
 ## License
 Unless noted otherwise in subfolders, content in this repo is released under **CC0-1.0** (see [LICENSE](https://github.com/Glimpz1/grc-mappings/blob/main/LICENSE)). This does not grant rights to any referenced third-party standard text.
